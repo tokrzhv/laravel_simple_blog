@@ -7,7 +7,7 @@
                 <div class="card mb-3">
                     <a href="#">
                         <img class="card-img-top img-fluid"
-                             src="{{asset($post->main_image ? 'storage/'. $post->main_image : 'storage/images/doesnotexist.jpg')}}"
+                             src="{{asset($post->main_image ? 'storage/'. $post->main_image : 'storage/doesnotexist.jpg')}}"
                              alt="Responsive image">
                     </a>
                     <div class="card-body">

@@ -72,7 +72,7 @@
 
                         <a href="#">
                             <img class="card-img-top " style="height: 300px"
-                                 src="{{url($post->main_image ? 'storage/'. $post->main_image : 'storage/images/doesnotexist.jpg')}}"
+                                 src="{{url($post->main_image ? 'storage/'. $post->main_image : 'storage/doesnotexist.jpg')}}"
                                  alt="blog post">
                         </a>
 

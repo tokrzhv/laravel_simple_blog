@@ -61,7 +61,7 @@
                                 <div class="row align-items-center py-3">
                                     <div class="text-center my-2">
                                         <img class="card-img-top w-50" style="height: 300px"
-                                             src="{{asset($post->main_image ? 'storage/'. $post->main_image : 'storage/images/doesnotexist.jpg')}}"
+                                             src="{{asset($post->main_image ? 'storage/'. $post->main_image : 'storage/doesnotexist.jpg')}}"
                                              alt="main_image">
                                     </div>
                                     <div class="col-md-3 ps-5">
